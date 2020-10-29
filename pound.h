@@ -1,8 +1,25 @@
+/*
+Name: Sagar Subedi
+
+Assignment: 5
+
+Date : 10/28/2020
+
+
+*/
+
+
+
+
+
+
 #ifndef _POUND_H_
 #define _POUND_H_
 #include <iostream>
 #include <string>
+#include<iostream>
 #include <sstream>
+
 
 using namespace std;
 class pound
@@ -13,10 +30,12 @@ class pound
     public:
      string innum;
 
-    pound(){initNum=0;}
+    pound()  //default constructor
+
+{initNum=0;}
     
 
-    pound(double num1)
+    pound(double num1) //  constructor that takes in a number
     {
        initNum=num1;
         
@@ -30,9 +49,14 @@ class pound
     }
 
 
+   
+
+
+
+
   
     
-    string  getinput(void)
+    string  getinput(void) // get input and ways to output
     {
       string result;
       
@@ -58,12 +82,22 @@ return result;
 
 
 
+
+
+
+
+// overloaded assignment operators
+
+
+
 pound operator +(const pound& pp){
 
 pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
+
+
 
 
 }
@@ -74,6 +108,8 @@ pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
+
+
 
 
 }
@@ -97,6 +133,9 @@ pound lb;
 lb.initNum=this->initNum+pp.initNum;
 return lb;
 
+
+
+
 }
 
 pound operator<(const pound& pp){
@@ -105,6 +144,9 @@ pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
+
+
+
 
 
 }
@@ -132,6 +174,10 @@ pound lb;
 lb.initNum=this->initNum+pp.initNum;
 return lb;
 }
+
+
+
+
 
 
  
