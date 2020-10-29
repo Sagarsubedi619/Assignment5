@@ -40,13 +40,16 @@ int main()
 string result1;
 string result2;
 
-
+string type =obj1.gettype();
+cout<<endl;
+cout<<"Type of unit : "<<type<<endl;
+cout<<endl;
 cout<<"***This is the first object created*** "<<endl;
 cout<<""<<endl;
 result1=obj1.getinput(); 
 
 cout<<result1<<endl;
-
+cout<<endl;
 cout<<"***This is the second object created***"<<endl;
 cout<<""<<endl;
 result2=obj2.getinput();
