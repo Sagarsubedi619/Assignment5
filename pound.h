@@ -6,7 +6,21 @@ Assignment: 5
 Date : 10/28/2020
 
 
+Description     : * This program demostrates the uses of class,constructor, and overloaded assignment operators 
+pre-condition   : * a default constructor, that sets the initial value to zero
+                  * a constructor that takes in a number (your choice of int, float, double, and so on) and sets the initial value to that
+                  * copy constructor
+                  * overloaded assignment operator
+                  * a way to set and get that value 
+                  * comparisons between different instances of your class
+                  * ways to input and output your unit
+                  * ways to get the name of the unit
+post-condition  :  output on the screen
+
+
 */
+
+
 
 
 
@@ -61,14 +75,22 @@ class pound
       string result;
       
       string intype;
+      cout<<endl;
       cout<<"please enter num and type"<<endl;
+cout<<endl;
       cin>>innum>>intype;
 
       if ((intype=="Pounds")||(intype=="POUNDS")||(intype=="pound")||(intype=="LBS")||(intype=="lbs")){
       result= innum+" "+intype;
 
        }
-      else{cout<<"bad Input"<<endl;
+      else{
+cout<<endl;
+cout<<"bad Input"<<endl;
+cout<<endl;
+cout<<"please enter num and type"<<endl;
+cout<<endl;
+      cin>>innum>>intype;
           
 
 
