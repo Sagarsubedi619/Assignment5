@@ -39,7 +39,8 @@ using namespace std;
 class pound
 {
     private:
-    double initNum;   //data members
+    double initNum; 
+    string utype="Weight";  //data members
     
     public:
      string innum;
@@ -65,7 +66,8 @@ class pound
 
    
 
-
+ string  gettype(void) 
+    { return utype;}
 
 
   
