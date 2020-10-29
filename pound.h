@@ -4,7 +4,6 @@
 #include <string>
 #include <sstream>
 
-
 using namespace std;
 class pound
 {
@@ -29,11 +28,6 @@ class pound
         initNum = sam.initNum;
        
     }
-
-
-   
-
-
 
 
   
@@ -64,22 +58,12 @@ return result;
 
 
 
-
-
-
-
-
-
-
-
 pound operator +(const pound& pp){
 
 pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
-
-
 
 
 }
@@ -90,8 +74,6 @@ pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
-
-
 
 
 }
@@ -115,9 +97,6 @@ pound lb;
 lb.initNum=this->initNum+pp.initNum;
 return lb;
 
-
-
-
 }
 
 pound operator<(const pound& pp){
@@ -126,9 +105,6 @@ pound lb;
 
 lb.initNum=this->initNum+pp.initNum;
 return lb;
-
-
-
 
 
 }
@@ -156,10 +132,6 @@ pound lb;
 lb.initNum=this->initNum+pp.initNum;
 return lb;
 }
-
-
-
-
 
 
  
