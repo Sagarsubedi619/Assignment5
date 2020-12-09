@@ -130,7 +130,7 @@ pound operator -(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum=this->initNum-pp.initNum;
 return lb;
 
 
@@ -142,7 +142,7 @@ pound operator *(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum=this->initNum*pp.initNum;
 return lb;
 
 
@@ -154,7 +154,7 @@ pound operator /(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum=this->initNum/pp.initNum;
 return lb;
 
 
@@ -166,7 +166,7 @@ pound operator<(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum<this->initNum;
 return lb;
 
 
@@ -179,7 +179,7 @@ pound operator>(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum>this->initNum;
 return lb;
 }
 
@@ -187,7 +187,7 @@ pound operator==(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum=+this->initNum;
 return lb;
 }
 
@@ -195,7 +195,7 @@ pound operator!=(const pound& pp){
 
 pound lb;
 
-lb.initNum=this->initNum+pp.initNum;
+lb.initNum!=this->initNum
 return lb;
 }
 
